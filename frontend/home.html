@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/home.css">
+    <script src="https://kit.fontawesome.com/77e06c42eb.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <img src="./img/easy-vend-logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" id="close"></i>
+                </ul>
+                <i class="fas fa-bars" id="open"></i>
+            </nav>
+            <div class="headertext">
+                <p>Welcome to Easy vend</p>
+                <h1>Make fast <span>Order</span><br>for better expeiance</h1>
+                <button class="btn">Get stared</button>
+            </div>
+        </div>
+    </div>
+    <!----------------------Order------------------->
+    <div id="order">
+        <div class="continer">
+            <nav>
+                <h1 class="section">Order</h1>
+                <form>
+                    <input type="text" placeholder="Item Number" class="item-num">
+                    <input type="text" placeholder="Quantity" class="quantity">
+                    <a href="#order" class="idd">
+                        <div id="submite" class="btn">submite</div>
+                    </a>
+                    <div class="next-btn" id="next" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></div>
+                </form>
+                <div class="leftitem">
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Item</th>
+                                <th>Price</th>
+                            </tr>
+                            <tr>
+                                <td>1. Coca Cola</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>2. Sun chips</td>
+                                <td>20</td>
+                            </tr>
+                            <td>3. Snickes</td>
+                            <td>80</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!----------------------about------------------->
+    <div id="about">
+        <div class="continer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/about us2.avif">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitel">About Us</h1>
+                    <p id="read">
+                        Welcome to Easy Vend!
+
+                        At Easy Vend, we are not just an online vending machine
+                        ordering platform, but also a team of passionate innovators who design
+                        and develop our own vending machines. Our mission is to provide a seamless
+                        and convenient experience for our customers,
+                        from ordering online to enjoying your favorite snacks and beverages.
+
+                    </p>
+                    <div class="btn" id="readmore">Read more</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------contact------------------->
+    <div id="contact">
+        <div class="continer">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitel">Contact Us</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Hundaoldejen@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +251913095086</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/messages/t/100071830342019"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/hunde_32/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/Kingteen32/"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="" class="btn">Download</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="emial" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            <p>Copyright © Easy vend. made by <i class="fa-solid fa-heart"></i> 2023 batch of Foka students</p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/btn.js"></script>
+</body>
+
+</html>
