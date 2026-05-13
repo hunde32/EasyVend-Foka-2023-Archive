@@ -17,5 +17,9 @@ The project bridges the gap between hardware and software by allowing users to p
 * `/backend`: Node.js/Express server files.
 * `/frontend`: Client-side web application files.
 
+## 📄 Technical Documentation
+For a deep dive into the hardware architecture, component list, and system design, view the original project paper:
+[EasyVend Project Paper - Google Docs](https://docs.google.com/document/d/1CudgPHtY0jdx0ogHPzanqt6qAvN0VZsEmGPJ7dGGZkA/edit?usp=drive_link)
+
 ---
 *Note: This repository is a technical archive. The code reflects my development skills as of 2023.*
